@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">iosCalculator</string>
+    <string-array name="code_zones">
+        <item>052</item>
+        <item>050</item>
+        <item>054</item>
+    </string-array>
 </resources>

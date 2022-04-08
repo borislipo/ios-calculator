@@ -1,10 +1,13 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import {SafeAreaView} from 'react-native';
+import {CalculatorScreen} from './src/screens/calculatorScreen';
+import { styles } from './src/theme/appTheme';
 
 export const App = () => {
   return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
-  )
-}
+    <SafeAreaView style={styles.background}>
+      <CalculatorScreen />
+    </SafeAreaView>
+  );
+};
+
